@@ -1,5 +1,6 @@
 .bg-hero-image{
-    background-image: url("https://picsum.photos/200/300");
+    background-image:url("images/pic1.png");
     background-repeat: no-repeat;
     background-size:cover;
+    background-position: center center;
 }
