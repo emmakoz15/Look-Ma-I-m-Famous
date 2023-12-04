@@ -5,3 +5,12 @@
     background-position: center center;
 }
 
+.timeimg{
+    background-image:url("https://picsum.photos/200/300");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+card {
+    margin: 2px;
+}
