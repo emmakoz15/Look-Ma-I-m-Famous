@@ -1,14 +1,27 @@
 .bg-hero-image{
-    background-image:url("https://picsum.photos/200/300");
+    background-image:url("images/blackboard-inscribed-with-scientific-formulas-and-calculations-in-physics-and-mathematics-science-and-education-background-julien.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
 
-.timeimg{
-    background-image:url("https://picsum.photos/200/300");
+.timeimg1{
+    background-image:url("images/1_o7AoQxVKeMHwmjvobRAKcw.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
+}
+.timeimg2{
+    background-image:url("images/albert3.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.timeimg3{
+    background-image:url("images/albert2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 card {
