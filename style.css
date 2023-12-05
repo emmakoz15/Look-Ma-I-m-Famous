@@ -1,3 +1,19 @@
+html{
+    background-color:#1F305E ;
+    height: 100%;
+    width: 100%; 
+}
+body{
+    background-color:#1F305E !important ;
+    height: 100%;
+    width: 100%;
+    color: aliceblue;
+}
+.row.navbar{
+    background-color:#1F305E ;
+
+}
+
 .bg-hero-image{
     background-image:url("images/blackboard-inscribed-with-scientific-formulas-and-calculations-in-physics-and-mathematics-science-and-education-background-julien.jpg");
     background-repeat: no-repeat;
@@ -24,6 +40,21 @@
     background-position: center center;
 }
 
-card {
-    margin: 2px;
+.card {
+    background-color:#1F305E !important ;
+    color: aliceblue !important;
+}
+div.container{
+    height: 100%;
+    width: 100%;
+    background-color:#1F305E ;
+
+}
+
+.m-4{
+    background-color:#1F305E ;
+}
+
+.hide{
+    background-color:#1F305E
 }

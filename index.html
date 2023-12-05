@@ -9,6 +9,8 @@
   <!--bootstrap link-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
 </head>
 
 <body>
@@ -30,10 +32,10 @@
         <div class="offcanvas-body">
           <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Overview</a>
+              <a class="nav-link" aria-current="page" href="#overview">Overview</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Timeline</a>
+              <a class="nav-link" href="#timeline">Timeline</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -62,9 +64,9 @@
     <!--header section-->
     <!--hero-->
 
-    <div class="row m-2">
-      <div class="col-12 p-3 text-center bg-hero-image rounded-3">
-        <div class="d-flex justify-content-center align-items-center h-100">
+    <div class="row m-2 border-light">
+      <div class="col-12 p-3 text-center bg-hero-image border-light rounded-3">
+        <div class="d-flex justify-content-center  align-items-center h-100">
           <div class="text-white">
             <h1 class="mb-3">Albert Einstein</h1>
           </div>
@@ -77,10 +79,10 @@
 
     <!--overview start-->
     <!--text for overview-->
-    <div class="col-12 mt-5 mb-0 ps-3 pb-3">
+    <div id= "overview" class="col-12 mt-5 mb-0 border-light ps-3 pb-3">
       <div class="card">
         <div class="card-body">
-          <p class="card-text text-center">
+          <p class="card-text border-light text-center">
             Albert Einstein, born on March 14, 1879, in Ulm, Germany,
              was a theoretical physicist renowned for developing the theory 
              of relativity, one of the two pillars of modern physics 
@@ -103,13 +105,13 @@
     <!--oveview imgs-->
     <div class="row justify-content-center">
       <div class="col-12 col-md-5 mt-0 p-3">
-        <div class="card text-bg-dark border-0 viewimg">
+        <div class="card text-bg-dark border-light viewimg">
           <img src="images/albert4.webp" class="card-img" alt="..." />
         </div>
       </div>
       <!--img card 2-->
       <div class="col-12 col-md-5 p-3 m-0">
-        <div class="card text-bg-dark border-0 viewimg">
+        <div class="card text-bg-dark border-light viewimg">
           <img src="images/albert5 copy.png" class="card-img" alt="..." />
         </div>
       </div>
@@ -118,14 +120,14 @@
     <!--overview end-->
 
     <!--timeline start-->
-    <div class="timeline ">
-      <div class="row m-2 g-3">
-        <div class="col-6 col-lg-3 card border-rounded timeimg1">
+    <div class="timeline " id="timeline">
+      <div class="row m-2">
+        <div class="col-6 col-lg-3 card border-rounded border-light timeimg1">
           <!--img 1 for timeline -->
         </div>
-        <div class="col-6 col-lg-3 card">
+        <div class="col-6 col-lg-3 border-light card">
           <!--text 1 for timeline -->
-          <div class="card-body">
+          <div class="card-body ">
             <p class="card-text">
               Albert Einstein was born on March 14, 1879, in Ulm, Germany, into a secular Jewish family. As a child, he was deeply curious, particularly fascinated by a compass his father showed him, sparking his interest in the sciences. Despite popular myths of him being a poor student, Einstein excelled academically, though he was dissatisfied with the rigid teaching methods of his schools. His family's move to Italy when he was a teenager led him to leave formal education early and renounce his German citizenship.
             </p>
@@ -136,12 +138,12 @@
 
       <div class="row m-2">
         <!--fill empty-->
-        <div class="col-lg-3 card border-0"><!--empty for timeline --></div>
+        <div class="col-lg-3 card hide border-0"><!--empty for timeline --></div>
 
-        <div class="col-6 col-lg-3 card border-rounded timeimg2">
+        <div class="col-6 col-lg-3 card border-light timeimg2">
           <!--img 2 for timeline -->
         </div>
-        <div class="col-6 col-lg-3 card">
+        <div class="col-6 col-lg-3 border-light card">
           <!--text 2 for timeline -->
           <div class="card-body">
             <p class="card-text">
@@ -155,15 +157,15 @@
 
       <div class="row m-2">
         <!--fill empty-->
-        <div class="col-lg-3 card border-0"><!--empty for timeline --></div>
+        <div class="col-lg-3 card hide border-0"><!--empty for timeline --></div>
 
         <!--fill empty-->
-        <div class="col-lg-3 card border-0"><!--empty for timeline --></div>
+        <div class="col-lg-3 card hide border-0"><!--empty for timeline --></div>
 
-        <div class="col-6 col-lg-3 card border-rounded timeimg3">
+        <div class="col-6 col-lg-3 card border-rounded border-light timeimg3">
           <!--img 3 for timeline -->
         </div>
-        <div class="col-6 col-lg-3 card">
+        <div class="col-6 col-lg-3 border-light card">
           <!--text 3 for timeline -->
           <div class="card-body">
             <p class="card-text">
@@ -174,8 +176,50 @@
       </div>
     </div>
     <!--timeline end-->
+    
+   <!-- Remove the container if you want to extend the Footer to full width. -->
+<div class="container my-5">
+
+  <footer style="background-color: aliceblue;">
+  <div class="container p-4">
+    <div class="row">
+      <div class="col-lg-6 col-md-12 mb-4">
+        <h5 class="mb-3" style="letter-spacing: 2px; color: aliceblue;">Einstien once said:</h5>
+        <p style="letter-spacing: 2px; color: aliceblue;">
+          "I am enough of the artist to draw freely upon my imagination. Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world."
+        </p>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <h5 class="mb-3" style="letter-spacing: 2px; color: aliceblue;">links</h5>
+        <ul class="list-unstyled mb-0">
+          <li class="mb-1">
+            <a href="https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/" style="color: aliceblue;">Nobel Prize </a>
+          </li>
+          <li class="mb-1">
+            <a href="https://www.space.com/15524-albert-einstein.html" style="color: aliceblue;">His Life</a>
+          </li>
+          <li class="mb-1">
+            <a href="https://www.history.com/topics/inventions/albert-einstein" style="color: aliceblue;">History</a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=KyjQJBDD5V4" style="color: aliceblue;">Biography</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</div>
+<!-- End of .container -->
+
   </div>
   <!--container end ^^-->
+
+<!--footer start-->
+
+
+
   <!-- img of einstien  uno link
  https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.discovery.com%2Fscience%2Ften-things-you-may-not-know-about-albert-einstein&psig=AOvVaw28yapfSsgFOwp_K6onAZMu&ust=1701188954251000&source=images&cd=vfe&ved=0CBIQjRxqFwoTCLiZw-zM5IIDFQAAAAAdAAAAABAJ -->
   <!--bootstrap js link-->
