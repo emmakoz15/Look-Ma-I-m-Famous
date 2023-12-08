@@ -19,6 +19,10 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    font-family: 'Exo 2', sans-serif;
+}
+.ttext{
+min-width: 30rem;
 }
 
 .timeimg1{
@@ -26,18 +30,27 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+   min-height: 20rem !important;
+   
+  
 }
 .timeimg2{
     background-image:url("images/albert3.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    min-height: 20rem !important;
+  
 }
+
 .timeimg3{
     background-image:url("images/albert2.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    min-height: 20rem !important;
+
+
 }
 
 .card {
@@ -45,8 +58,6 @@ body{
     color: aliceblue !important;
 }
 div.container{
-    height: 100%;
-    width: 100%;
     background-color:#1F305E ;
 
 }
@@ -58,3 +69,13 @@ div.container{
 .hide{
     background-color:#1F305E
 }
+hr{
+    margin-bottom: 10rem;
+}
+footer{
+    margin-bottom: none !important;
+}
+.navbar-brand{
+    font-family: 'PT Serif', serif;
+}
+
